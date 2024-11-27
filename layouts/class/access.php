@@ -4,10 +4,10 @@ class Tr
 {
   public function __construct()
   {
-    $hostname = "localhost";
-    $username = "omil";
-    $password = "System@@33";
-    $database = "vehicle";
+		$hostname = "localhost";
+		$username = "username";
+		$password = "password";
+		$database = "vehicle-db";
 
   $this->link = mysqli_connect($hostname,$username,$password,$database);
 
