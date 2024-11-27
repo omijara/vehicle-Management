@@ -13,8 +13,8 @@ class Model
 	public function __construct()
 	{
 		$hostname = "localhost";
-		$username = "omil";
-		$password = "System@@33";
+		$username = "username";
+		$password = "password";
 		$database = "vehicle";
 
 	$this->link = mysqli_connect($hostname,$username,$password,$database);
