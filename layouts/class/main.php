@@ -15,7 +15,7 @@ class Model
 		$hostname = "localhost";
 		$username = "username";
 		$password = "password";
-		$database = "vehicle";
+		$database = "vehicle-db";
 
 	$this->link = mysqli_connect($hostname,$username,$password,$database);
 
